@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.content h1{
+    position: absolute;
+    width: 600px;
+height: 144px;
+left: 38px;
+top: 140px;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+color: #000000;
+}
+
+.content p{
+    position: absolute;
+width: 791px;
+height: 546px;
+left: 38px;
+top: 245px;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+
+.img{
+    position: absolute;
+width: 729px;
+height: 911px;
+left: 922px;
+top: 140px;
+}
+
+.flex-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    top: 1100px;
+}
+
+.flex-container img{
+    flex-wrap: wrap;
+    width: 498.42px;
+height: 447.57px;
+margin: 15px 0;;
+}
